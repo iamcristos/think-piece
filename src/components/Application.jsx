@@ -7,6 +7,7 @@ import Posts from './Posts';
 import Authentication from './Authentication';
 import {CollectionIdsAndDocument} from '../utils';
 import UserProfile from './userProfile';
+import PostPage from './PostPage';
 
 class Application extends Component {
   state = {
@@ -98,6 +99,7 @@ class Application extends Component {
         <Switch>
           <Route exact path='/' component={Posts}/>
           <Route exact path='/profile' component={UserProfile} />
+          <Route exact path='/post/:id' component={PostPage} />
         </Switch>
         {/* <Posts/> */}
       </main>

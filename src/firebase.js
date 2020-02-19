@@ -24,8 +24,7 @@ window.firebase = firebase;
 
 export const createUserDocument = async (user, additionalInfo) =>{
   if(!user) return;
-
-  console.log(user)
+  
   const userRef = firestore.doc(`users/${user.uid}`);
 
   // fetching user from the location
