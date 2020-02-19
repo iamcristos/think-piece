@@ -1,0 +1,1 @@
+export const CollectionIdsAndDocument = doc => { return {id: doc.id, ...doc.data()} }
