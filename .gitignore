@@ -23,5 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 hello.go
+y
+test.py
+test.js
 
 functions/node_modules

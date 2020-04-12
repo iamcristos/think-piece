@@ -36,6 +36,7 @@ class AddPost extends Component {
     this.setState({ title: '', content: '' });
   };
 
+  
   render() {
     const { title, content } = this.state;
     return (
@@ -54,6 +55,7 @@ class AddPost extends Component {
           value={content}
           onChange={this.handleChange}
         />
+        
         <input className="create" type="submit" value="Create Post" />
       </form>
     );

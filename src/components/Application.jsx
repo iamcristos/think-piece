@@ -99,7 +99,7 @@ class Application extends Component {
         <Switch>
           <Route exact path='/' component={Posts}/>
           <Route exact path='/profile' component={UserProfile} />
-          <Route exact path='/post/:id' component={PostPage} />
+          <Route exact path='/posts/:id' component={PostPage} />
         </Switch>
         {/* <Posts/> */}
       </main>
